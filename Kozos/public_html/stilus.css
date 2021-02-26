@@ -1,0 +1,50 @@
+body{
+    background-image: url(hatter.jpg);
+    color: white;
+    font-size: 25px;
+}
+main{
+    max-width: 800px;
+}
+main {
+    margin: auto;
+}
+header {
+    font-weight: bold;
+    margin: auto;
+    font-size: 30px;
+    background-color: purple;
+    border: 1px solid white;
+    box-shadow: 5px 10px;
+    
+}
+article {
+clear: both;
+}
+fieldset {
+    border: solid 5px white;
+}
+legend {
+    font-weight: bold;
+}
+/*Menu*/
+nav {
+
+}
+nav ul li {
+list-style-type: none;
+float: left;
+padding: 10px;
+}  
+a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: purple; 
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 0px rgba(206,206,206,0);
+}
+fieldset:textarea {
+    margin: auto;
+}

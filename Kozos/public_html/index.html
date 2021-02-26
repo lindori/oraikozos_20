@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Vitéz Dóra</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stilus.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <main>
+        <header>Zenedoboz</header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dóri</a></li>
+                <li><a href="index2.html">Bálint</a></li>
+            </ul>
+
+        </nav>
+            <article>
+                <form action="feldolgoz.php" target="_blank" method="post">
+                    <fieldset>
+                        <legend>Bejelentkezés/Személyes adatok</legend>
+                    <label for="nev">Kérjük add meg a nevedet:*</label>
+                    <input type="text" name="nev" id="nev" required placeholder="Vezeteknev Keresztnev">
+                    <br>
+                    <br>
+                     <label for="jelszo">Kérjük add meg a jelszavad:</label>
+                     <input type="password" name="jelszo" id="jelszo" disabled>   <br>
+                    </fieldset>
+                     <fieldset>
+                         <legend>Kérdőív</legend>
+                    <label>Melyiket műfaj a kedvenced?</label><br>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Metalcore</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Heavy Metal</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Alternative Rock</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Gothic Metal</label><br>
+                    <br>
+                       <label>Melyiket preferálód az alábbi bandák közül?</label><br>
+                       <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Bring me the horizon</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Slipknot</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Gun's and Roses</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Mandragora Scream</label><br>
+                    <br>
+                    <label>Mely fesztiválokon vennél rész?</label> <br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Volt</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2">Strand</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2">Hegyalja</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2">Rockmaraton</label><br>                    
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3">Sziget</label><br><br>
+                    
+                    <label for="ev">Hány évesen voltál koncerten először?</label>
+                    <input type="number" id="ev" name="ev" min="10" max="100">
+                    </fieldset>
+                    <fieldset id="velemeny">
+                        <legend>Vélemény:</legend> 
+                        <label>Mi a véleményed a modernebb irányzatokról?</label><br>
+                         <textarea name="message" style="width:700px; height:200px;">Ide írhatod a vélemény...</textarea>
+  <br>
+                    </fieldset>
+                     <input id="gomb" type="submit" value="Küld">
+                </form>
+                
+                
+            </article>
+        </main>
+    </body>
+</html>

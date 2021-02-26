@@ -1,0 +1,8 @@
+{
+    "name": "Kozos",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Dóri",
+    "contributors": [],
+    "dependencies": {}
+}
